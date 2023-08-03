@@ -34,3 +34,8 @@ Lembre-se de que o uso do `--force` ao fazer push pode causar problemas para out
 ------------------------------------------------------------------------------------------------------------------------
 
 # NEW
+
+```
+git checkout <nome_da_branch> -- <arquivo> 
+```
+
