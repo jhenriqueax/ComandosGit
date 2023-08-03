@@ -1,9 +1,6 @@
 # ComandosGit
 
-
 # Retornar um Commit Após o Push
-
-Este é um guia para retornar a um commit anterior após o push usando o Git. Siga os passos abaixo:
 
 1. Execute o comando `git log` para visualizar o histórico de commits no seu repositório local. Anote o hash do commit anterior ao qual você deseja retornar.
 
@@ -33,9 +30,16 @@ Lembre-se de que o uso do `--force` ao fazer push pode causar problemas para out
 
 ------------------------------------------------------------------------------------------------------------------------
 
-# NEW
+# Copiar arquivo de uma branch para outra
+
+Para copiar um arquivo de uma branch para outra, você pode utilizar o seguinte comando no Git, dentro da branch de destino:
 
 ```
-git checkout <nome_da_branch> -- <arquivo> 
+git checkout <branch_origem> -- <arquivo>
 ```
+
+- `<branch_origem>`: É o nome da branch de onde você deseja copiar o arquivo.
+- `<arquivo>`: É o nome do arquivo que você deseja copiar.
+
+
 
